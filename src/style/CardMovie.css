@@ -1,0 +1,23 @@
+.div-card-movie-img{
+    display: flex;
+}
+.card-movie-img{
+    height: 270px;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 414px) {
+    
+    .card-movie-img{
+        height: 180px;
+    }
+    .contenedor-body-filtro div {
+        width:  180px;
+    }
+
+    .contenedor-body-filtro div div img{
+        height: 270px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.titulo-seccion{
+    color: #ffffff;
+}
+.swiper{
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.btn-carrusel{
+    z-index: 2;
+    height: 100%;  
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: hsla(0, 0%, 100%, 0);
+    color: transparent;
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+.btn-carrusel:hover{
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+#btn-siguiente{
+    right: 0;
+}
+#btn-anterior{
+    left: 0;
+}
+
+
+@media screen and (max-width: 414px) {
+    
+    .container-de-secciones{
+        padding: 16px;
+    }
+
+    .btn-carrusel{
+        display: none;
+    }
+}
+
