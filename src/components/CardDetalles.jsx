@@ -2,7 +2,7 @@ import React from "react";
 import "../style/CardDetalles.css";
 
 //IMAGENES
-import like from "../assets/images/like.png";
+import like from "../assets/images/like.webp";
 
 function CardDetalles({ peliculaSeleccionada, setToggle }) {
   return (

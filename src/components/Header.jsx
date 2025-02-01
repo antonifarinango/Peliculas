@@ -2,8 +2,8 @@ import React from "react";
 import "../style/Header.css";
 
 //IMAGENES
-import buscar from "../assets/icons/icons-búsqueda.png";
-import popcornHeaderIcono from "../assets/icons/popcorn-icon.png";
+import buscar from "../assets/icons/icons-búsqueda.webp";
+import popcornHeaderIcono from "../assets/icons/popcorn-icon.webp";
 
 function Header({ obtenerBusqueda }) {
   return (

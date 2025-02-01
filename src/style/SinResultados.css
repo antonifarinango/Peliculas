@@ -15,6 +15,7 @@
     word-spacing: 4px;
     letter-spacing: 1px;
     z-index: 10;
+    text-align: center;
 }
 
 .div-img-filtro-sin-resultados::before{
